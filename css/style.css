@@ -188,7 +188,6 @@ li {
   color: var(--basic-red);
   opacity: 1;
   outline-color: transparent;
-  fill: red;
 }
 
 
@@ -309,13 +308,17 @@ li {
   width: 270px;
   height: 45px;
   margin: 0;
-  color: var(--basic-red);
   font-weight: 700;
   line-height: 45px;
   font-size: 21px;
   padding-left: 74px;
   text-align: left;
 }
+
+.main-header__tel a {
+  color: var(--basic-red);
+}
+
 .main-header__tel::before {
   content: "";
   width: 19px;
@@ -660,6 +663,7 @@ li {
 .slider-label {
   cursor: pointer;
   display: inline-block;
+  vertical-align: middles;
   height: 6px;
   margin: 5px;
   position: relative;
